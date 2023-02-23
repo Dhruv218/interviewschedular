@@ -16,7 +16,7 @@ const OrgAccount = require('./models/org');
 const isAuth = require('./middleware/is-auth');
 
 // set up the server
-const MONGODB_URL = process.env.MONGODB_URL || process.env.DB_CONNECTION;
+const MONGODB_URL = "mongodb+srv://admin:admin123@cluster0.dzvk7kb.mongodb.net/?retryWrites=true&w=majority";
 
 const PORT = process.env.PORT || 5050;
 
